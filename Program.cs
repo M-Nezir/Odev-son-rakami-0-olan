@@ -11,7 +11,9 @@ namespace Odev_son_rakami_0_olan
         static void Main(string[] args)
         {
             // 5 elemanlı bir X dizisi içinde son rakamı sıfır olan kaç tane sayı olduğunu hesaplar 
-            int[] B = new int[5]; int a = 0, say = 0, toplam = 0, newtoplam = 0;
+            int[] B = new int[5];
+            int a = 0, say = 0;
+            double toplam = 0, newtoplam = 0;
 
             for (a = 0; a <= B.Length - 1; a++)
             {
